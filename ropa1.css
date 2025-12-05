@@ -1,0 +1,129 @@
+/*Estilo general*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 221, 248);
+    margin: 0;
+    padding: 0;
+}
+/* Encabezado */
+header{
+background-color: rgb(255, 255, 255);
+text-align: center;
+padding: 30px 10px;
+}
+
+header h1{
+margin: 0;
+}
+header p{
+    margin: 5px 0 0;
+}
+
+/*Barra de navegacion*/ 
+nav ul{
+    list-style: none;
+    background-color: lightpink;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+ nav ul li{
+    padding: 14px 20px;
+ }
+ nav ul li a{
+    color: floralwhite;
+    text-decoration: none;
+    font-weight: bold;
+ }
+ main {
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 20px ;
+ }
+/*configurar ropa de arriba*/ 
+.ropa { 
+    background-color: rgb(248, 205, 212);
+    border: 1px lightpink;
+    border-radius: 10px ;
+    padding:20px ;
+    max-width:650 ;
+    box-shadow:0 4px 8x rgba(rgb(255, 187, 224), rgb(181, 228, 255), rgb(209, 248, 255), alpha);
+transition:transform 0.3 ease, box shadoy ease;
+}
+
+.ropa:hover {
+transform: scale(1.03);
+box-shadow: 0 6px 12px rgba(rgb(255, 187, 224), rgb(181, 228, 255), rgb(209, 248, 255), alpha);
+}
+.ropa img {
+    width: 100;
+    height: auto;
+    border-radius: 10px 10px;
+}
+.ropa h2 {
+    color: rgb(253, 90, 180);
+    font-size: 1.5 srem;
+    margin-bottom: 10px ;
+    text-align: center;
+}
+.ropa p {
+    font-size: 1.2 srem;
+color: rgb(253, 90, 180);
+text-align: center;
+}
+.acsesorios {
+    background-color: rgb(248, 205, 212);
+    border: 1px lightpink;
+    border-radius: 10px ;
+    padding:20px ;
+    max-width:650 ;
+    box-shadow:0 4px 8x rgba(rgb(255, 187, 224), rgb(181, 228, 255), rgb(209, 248, 255), alpha);
+transition:transform 0.3 ease, box shadoy ease;
+}
+
+.contenedor-acsesorios {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 20px ;
+margin-top: 20px ;
+}
+.ropa-img {
+    background-color: rgb(248, 205, 212);
+    border: 1px solid rgb(248, 205, 212);
+    border-radius: 8px;
+    box-shadow: rgba(red, green, blue, alpha);
+    padding: 10px ;
+width: 300px ;
+}
+.acsesorios p{
+    font-size: 1.2 srem;
+    color: rgb(253, 90, 180);
+    text-align: center;
+    }  
+
+.acsesorios img {
+    width: 100;
+height: auto;
+border-radius: 10px;
+text-align: center;
+}
+
+.contenedor-acsesorios {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(rgb(255, 187, 224), rgb(181, 228, 255), rgb(209, 248, 255), alpha);
+text-align: center;    
+}
+
+/*pie de pagina*/
+footer {
+    background-color: rgb(6, 34, 65);
+    color: rgb(255, 255, 255);
+text-align: center;
+padding: 1rem;
+font-size: 0.9rem;
+}
